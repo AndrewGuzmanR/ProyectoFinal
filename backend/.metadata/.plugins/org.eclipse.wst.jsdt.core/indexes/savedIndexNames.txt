@@ -1,0 +1,7 @@
+INDEX VERSION 1.4+C:\Users\user\Desktop\ClonApiSpring\ApiSpringH2-master\backend\.metadata\.plugins\org.eclipse.wst.jsdt.core\indexes
+4019705474.index
+3286055889.index
+1310237581.index
+3320755826.index
+1220320553.index
+3154752254.index

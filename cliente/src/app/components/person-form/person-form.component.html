@@ -1,0 +1,35 @@
+<div class="col-md-4 offset-md-4" style="margin-top: 40px;">
+  <div class="card">
+    <div class="card-body">
+      <form>
+        <div class="form-group">
+          <input type="text" name="nombre" [(ngModel)]="persona.nombre" placeholder="Nombre Completo" class="form-control" autofocus>
+        </div>
+        <div class="form-group">
+          <input type="text" name="tipodocumento" [(ngModel)]="persona.tipodocumento" placeholder="Tipo Documento: CC o TI" class="form-control">
+        </div>
+        <div class="form-group">
+          <input type="text" name="numdocumento" [(ngModel)]="persona.numdocumento" placeholder="Numero Documento: Sin puntos" class="form-control">
+        </div>
+        <div class="form-group">
+          <input type="text" name="eps" [(ngModel)]="persona.eps" placeholder="Eps" class="form-control">
+        </div>
+        <div class="form-group">
+          <input type="text" name="direccion" [(ngModel)]="persona.direccion" placeholder="Direccion" class="form-control">
+        </div>
+        <div class="form-group">
+          <input type="text" name="telefono" [(ngModel)]="persona.telefono" placeholder="Telefono" class="form-control">
+        </div>
+        <div class="form-group">
+          <input type="text" name="email" [(ngModel)]="persona.email" placeholder="Correo" class="form-control">
+        </div>
+        <div class="form-group">
+          <input type="number" name="edad" [(ngModel)]="persona.edad" placeholder="Edad" class="form-control">
+        </div>
+        <button class="btn btn-success btn-block" (click)="edit ? updatePerson() : savePerson()">
+          Guardar
+        </button>
+      </form>
+    </div>
+  </div>
+</div>
