@@ -13,7 +13,7 @@ import javax.persistence.TemporalType;
 
 @Entity
 @Table(name="pacientes")
-public class Cliente {
+public class Cliente{
 	
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
@@ -25,7 +25,7 @@ public class Cliente {
 	@Column(name = "tipodocumento")
 	private String tipodocumento;
 	
-	@Column(name = "numdocumento")
+	@Column(name = "cedula")
 	private String numdocumento;
 	
 	@Column(name = "eps")
